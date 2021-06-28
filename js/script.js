@@ -6,7 +6,7 @@ document.getElementById("input").addEventListener('submit', handleForm);
 document.getElementById("input").onsubmit = function() {
     var inputUrl = document.getElementById("url").value;
     inputUrl = inputUrl.split("nexturl=")[1];
-    var array = inputUrl.split("otn", 1);
+    var array = inputUrl.split("otn", 2);
     inputUrl = array[0] + "otn-pub" + array[1];
     var fileName = inputUrl.split("/")[8];
     var element = document.createElement('a');
