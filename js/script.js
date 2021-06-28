@@ -10,9 +10,9 @@ document.getElementById("input").onsubmit = function() {
     inputUrl = array[0] + "otn-pub" + array[1];
     var fileName = inputUrl.split("/")[8];
     var element = document.createElement('a');
-    element.id = "link";
     element.href = inputUrl;
     element.setAttribute("download", fileName);
     document.body.appendChild(element);
     element.click();
+    document.body.removeChild(element);
 }

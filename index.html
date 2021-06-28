@@ -5,28 +5,20 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Java Downloader</h1>
-        <br>
-        <h2>Usage</h1>
-        <br>
-        <ol>
-            <li>
-                Go to any <a href="https://www.oracle.com/ca-en/java/technologies/javase/javase-jdk8-downloads.html">Oracle Java download page</a> and click the download button, then accept the license agreement.
+        <div class="container" id="container">
+            <div class="inputUrl">
+                <h1>Java Download without Login</h1>
+                <p>Don't know how to use? Click <a href="https://github.com/IceCruelStuff/download-java-no-login#usage" target="_blank">here</a> to learn how.</p>
                 <br>
-                Example:
-                <br>
-                <img src="https://i.imgur.com/Z1hALdu.png" alt="Java Download">
-            </li>
-            <li>Right click the green Download button and select Copy link address.</li>
-            <li>Paste the URL into the input box</li>
-        </ol>
-        <form id="input">
-            <label for="url">Enter URL</label>
-            <br>
-            <input type="text" id="url" name="url">
-            <br>
-            <input type="submit" value="Download">
-        </form>
+                <form id="input" autocomplete="off">
+                    <div class="inputBox">
+                        <input type="url" required id="url" value="" autocomplete="off">
+                        <label>Java URL</label>
+                    </div>
+                    <input type="submit" value="Download">
+                </form>
+            </div>
+        </div>
     </body>
     <script type="text/javascript" src="js/script.js"></script>
 </html>
