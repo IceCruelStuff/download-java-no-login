@@ -11,6 +11,6 @@ document.getElementById("input").onsubmit = function() {
     var fileName = inputUrl.split("/")[8];
     var element = document.createElement('a');
     element.href = inputUrl;
-    element.setAttribute("download");
+    element.setAttribute("download", fileName);
     document.body.appendChild(element);
 }
