@@ -11,8 +11,4 @@ Go to any [Oracle Java download page](https://download.oracle.com/otn-pub/java/j
 
 Now right click the green `Download` button and select `Copy link address`.
 
-Then, download and run the `download.py` file from this repository.
-
-Paste the link you just copied into the terminal.
-
-It should start downloading Java.
+Then, visit https://icecruelstuff.github.io/download-java-no-login and paste the URL there.
