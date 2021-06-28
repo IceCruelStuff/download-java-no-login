@@ -2,7 +2,7 @@
 Download Java from Oracle without login.
 
 ## Usage
-Go to any [Oracle Java download page](https://download.oracle.com/otn-pub/java/jdk/8u291-b10/d7fc238d0cbf4b0dac67be84580cfb4b/jdk-8u291-windows-x64.exe) and click the download button, then accept the license agreement.
+Go to any [Oracle Java download page](https://www.oracle.com/ca-en/java/technologies/javase/javase-jdk8-downloads.html) and click the download button, then accept the license agreement.
 
 ![Java Download](https://i.imgur.com/Z1hALdu.png)
 
