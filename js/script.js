@@ -12,7 +12,5 @@ document.getElementById("input").onsubmit = function() {
     var element = document.createElement('a');
     element.href = inputUrl;
     element.setAttribute("download", fileName);
-    document.body.appendChild(element);
     element.click();
-    document.body.removeChild(element);
 }
